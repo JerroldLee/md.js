@@ -1,7 +1,5 @@
 # Module definition framework
 
-[![Build Status](https://travis-ci.org/fouber/md.js.svg?branch=master)](https://travis-ci.org/fouber/md.js)
-
 ## Usage
 
 ### index.html
@@ -23,7 +21,7 @@ define('sayHi', function(require, exports, module){
 define(function(require){
     //require module
     var hi = require('sayHi');
-    hi('fouber'); // hi, fouber
+    hi('Jerrold'); // hi, Jerrold
 });
 </script>
 ```
